@@ -8,7 +8,7 @@ $instance, $in_value, $instance_type, $in_type, $allow_ssh_from, $ip = ARGV
 $my_array = []
 
 # Reads contents of source file "output.rb" into array called my_array.
-$my_array = IO.readlines('/Users/harrykorang/Desktop/Assignment/assignment/doc/output')
+$my_array = IO.readlines('/Users/harrykorang/assignment/doc/output')
 
 #Create class called output containing methods to create output2 using input from user.
 class Output
